@@ -4,6 +4,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link rel="icon" type="image/ico" href="pics/icon.png"/>
         <link rel="stylesheet" href="./index.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
     </head>
     <body>
         <div id="main-body" class="row">
@@ -34,10 +36,10 @@
 
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <form id="form-body">
-                    
                     <h2 id="RegisterHeading">Register</h2>
 
                     <div class="form-group">
+                        <i class="fa fa-user" style="margin-top:36px;margin-left:5px;position: absolute;"></i>
                         <label for="reg-no">Registration Number:</label>
                         <input 
                           type="text" 
@@ -45,25 +47,31 @@
                           pattern="[12][0-9]{4}"
                           id="reg-no"
                           oninvalid="setCustomValidity('Please Enter a Valid Registration Number')"
+                          style="padding-left:24px;"
                         >
                     </div>
                     <div class="form-group">
+                        <i class="fa fa-key" style="margin-top:36px;margin-left:5px;position: absolute;"></i>
                       <label for="pwd">Library Password:</label>
                       <input 
                         type="password" 
                         class="form-control" 
                         id="pwd"
+                        style="padding-left:24px;"
                       >
                     </div>
                     <div class="form-group">
+                        <i class="fa fa-envelope" style="margin-top:36px;margin-left:5px;position: absolute;"></i>
                         <label for="email">Email Address:</label>
                         <input 
                           type="email" 
                           class="form-control" 
                           id="email"
+                          style="padding-left:24px;"
                         >
                     </div>
                     <div class="form-group">
+                        <i class="fa fa-phone" style="margin-top:36px;margin-left:5px;position: absolute;"></i>
                         <label for="phone-no">Phone Number:</label>
                         <input 
                           type="text" 
@@ -71,10 +79,11 @@
                           class="form-control" 
                           id="phone-no"
                           oninvalid="setCustomValidity('Please Enter a Valid Phone Number')"
+                          style="padding-left:24px;"
                         >
                     </div>
-  
-                    <button type="submit" class="btn btn-default">Submit</button>
+  <br>
+                    <center><button type="submit" class="btn btn-primary nbt">Submit</button></center>
                 </form>
             </div>
         </div>

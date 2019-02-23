@@ -3,8 +3,13 @@ body{
     /* background-image: linear-gradient(#00ADEE,#652C90); */
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nbt:hover{
+  border-radius: 15px;
+  -webkit-transition: border-radius 0.5s;
 }
 
 #form-body{
@@ -39,7 +44,7 @@ body{
     color: white;
     text-shadow: 3px 2px black;
     font-weight: bolder;
-    
+
 }
 
 #thankyou-heading{
